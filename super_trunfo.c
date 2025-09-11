@@ -23,7 +23,7 @@ int main(){
     printf("Estado (ex: A-H): ");
     scanf(" %c", &estado1);
     printf("Código (ex: A01): ");
-    scanf("%s", &codigo_da_carta1);
+    scanf("%s", codigo_da_carta1);
     printf("Nome da cidade: ");
     getchar();  
     fgets(nomecidade1, sizeof(nomecidade1), stdin);
@@ -42,7 +42,7 @@ int main(){
     printf("Estado (ex: A-H): ");
     scanf(" %c", &estado2);
     printf("Código (ex: A01): ");
-    scanf("%s", &codigo_da_carta2);
+    scanf("%s", codigo_da_carta2);
     printf("Nome da cidade: ");
     getchar();  
     fgets(nomecidade1, sizeof(nomecidade1), stdin);
@@ -77,4 +77,5 @@ int main(){
 
     return 0;
 }
+
 
