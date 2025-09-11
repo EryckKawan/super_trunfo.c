@@ -59,7 +59,7 @@ int main(){
     scanf("%d", &pontosturisticos2);
 
 
-    // caulculando
+    // calculando
     DensidadePopulacional1 = populaçao1 / area1;
     DensidadePopulacional2 = populaçao2 / area2;
 
